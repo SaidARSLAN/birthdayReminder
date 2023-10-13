@@ -1,8 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { fetchPeople } from '../store/people'
+import PeopleDetail from './PeopleDetail'
 
 const PeopleList = () => {
+
+  const people = useSelector(state => state.people)
+  const dispatch = useDispatch();
+  useEffect(() => {
+    if (people.status === "idle") {
+      dispatch(fetchPeople());
+    }
+  },[]);
   return (
-    <div>PeopleList</div>
+    <div>
+      {people.people.map((item) => {
+        return <PeopleDetail item={item}/>
+      })}
+    </div>
   )
 }
 
