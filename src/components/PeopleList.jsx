@@ -13,7 +13,7 @@ const PeopleList = () => {
     }
   },[]);
   return (
-    <div>
+    <div className='bd__people-list'>
       {people.people.map((item) => {
         return <PeopleDetail item={item}/>
       })}

@@ -2,7 +2,7 @@ import React from 'react'
 
 const DeleteButton = () => {
   return (
-    <div>DeleteButton</div>
+    <button className='bd__button'>Clear All</button>
   )
 }
 
