@@ -21,6 +21,7 @@ html,body,#root {
     align-items: center;
     justify-content: start;
     flex-direction: column;
+    border-radius: 10px;
     .bd__header {
         width: 100%;
         display: flex;
@@ -69,6 +70,23 @@ html,body,#root {
             color: gray;
             letter-spacing: 2px;
             line-height: 1;
+        }
+    }
+    .bd__button {
+        width: 24rem;
+        padding: 4px;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 1000;
+        background-color:rgb(196, 53, 196);
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        letter-spacing: 1px;
+        line-height: 1;
+        &:hover{
+            background-color: rgb(108, 3, 108);
         }
     }
 }

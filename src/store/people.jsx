@@ -21,7 +21,11 @@ const initialState = {
 const people = createSlice({
     name:"people",
     initialState,
-    reducers : {},
+    reducers : {
+        DELETE_LİST : (state) => {
+            state.people = [];
+        }
+    },
     extraReducers: (builder) =>  {
         builder
         .addCase(fetchPeople.pending, (state) => {
@@ -39,5 +43,5 @@ const people = createSlice({
     }
 })
 
-
+export const {DELETE_LİST} = people.actions
 export default people.reducer
