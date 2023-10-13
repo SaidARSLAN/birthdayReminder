@@ -1,11 +1,16 @@
+import DeleteButton from './components/DeleteButton'
+import Header from './components/Header'
+import PeopleList from './components/PeopleList'
 import './index.scss'
 
 function App() {
 
   return (
-   <div>
-    
-   </div>
+   <main className='__main'>
+    <Header />
+    <PeopleList />
+    <DeleteButton />
+   </main>
   )
 }
 
