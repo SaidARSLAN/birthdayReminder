@@ -1,0 +1,29 @@
+{
+    "people" : [
+        {
+            "image" : "C:/Users/Caine/OneDrive/Belgeler/BirthdayReminder/src/assets/indir.jfif",
+            "name":"Bertie Yates",
+            "year": "29 Years"
+        },
+        {
+            "image" : "C:/Users/Caine/OneDrive/Belgeler/BirthdayReminder/src/assets/indir2.jfif",
+            "name":"Hester Hogan",
+            "year" : "32 Years"
+        },
+        {
+            "image" : "C:/Users/Caine/OneDrive/Belgeler/BirthdayReminder/src/assets/indir3.jfif",
+            "name":"Larry Little",
+            "year" : "36 years"
+        },
+        {
+            "image" : "C:/Users/Caine/OneDrive/Belgeler/BirthdayReminder/src/assets/indir4.jfif",
+            "name":"Sean Walsh",
+            "year" : "Sean Walsh"
+        },
+        {
+            "image" : "C:/Users/Caine/OneDrive/Belgeler/BirthdayReminder/src/assets/indir5.jfif",
+            "name":"Lola Gardner",
+            "year" : "29 years"
+        }
+    ]
+}
